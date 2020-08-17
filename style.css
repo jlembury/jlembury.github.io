@@ -52,18 +52,6 @@ img {
   
 }
 
-/* Dropdown Button */
-.dropbtn {
-  background-color: var(--light);
-  color: var(--dark);;
-  padding: 0.5rem;
-  font-size: 16px;
-  border: none;
-  position:fixed;
-  top: 10px;
-  right: 10px;
-}
-
 .return-top {
   position: fixed;
   top:15px;
