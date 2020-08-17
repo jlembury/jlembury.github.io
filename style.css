@@ -10,7 +10,8 @@ html {
   box-sizing: border-box;
   font-family: 'Exo 2', sans-serif; 
   color: var(--dark);
-  scroll-padding-top: 95px;
+  scroll-padding-top: 120px;
+  max-width: 100%;
 }
 
 body {
@@ -385,6 +386,7 @@ img {
 }
 
 .skill-icon h2 {
+  padding-top: 1rem;
   font-size: 2rem;
   margin-top: 0;
   margin-bottom: 0;
