@@ -10,7 +10,7 @@ html {
   box-sizing: border-box;
   font-family: 'Exo 2', sans-serif; 
   color: var(--dark);
-  scroll-padding-top: 95px;
+  /*scroll-padding-top: 95px;*/
   max-width: 100%;
 }
 
@@ -391,7 +391,8 @@ img {
 }
 
 .skill-icon h2 {
-  padding: 1rem;
+  padding-top: 1rem;
+  margin: 0;
   font-size: 2rem;
   color: var(--dark);
   text-transform: uppercase;
@@ -434,7 +435,8 @@ img {
 }
 
 .contact-icon h2 {
-  padding: 1rem;
+  padding-top: 1rem;
+  margin: 0;
   font-size: 2rem;
   color: var(--dark);
   text-transform: uppercase;
