@@ -10,7 +10,7 @@ html {
   box-sizing: border-box;
   font-family: 'Exo 2', sans-serif; 
   color: var(--dark);
-  scroll-padding-top: 120px;
+  scroll-padding-top: 95px;
   max-width: 100%;
 }
 
@@ -18,6 +18,11 @@ body {
   background: whitesmoke;
   margin: 30px 30px;
   line-height: 1.4;
+}
+
+.jump-marker {
+  position: absolute;
+  margin: -95px 0 0;
 }
 
 .btn {
