@@ -365,7 +365,7 @@ img {
   display: grid;
   grid-gap: 20px;
   grid-template-areas:
-    'skill-icon contact-icon contact-form';
+    'skill-icon contact-icon';
 }
 
 /* Skill Icons */
@@ -452,45 +452,6 @@ img {
 }
 
 .contact-icon a {color: var(--dark);}
-
-/* Contact Form */
-
-.contact-form {
-  grid-area: contact-form;
-  max-width:100%;
-  background: var(--light);
-  background-size: cover;
-  background-position: center;
-  padding: 1rem;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  box-shadow: var(--shadow);
-}
-
-.contact-form h2 {
-  padding-top: 1rem;
-  font-size: 2rem;
-  margin-top: 0;
-  margin-bottom: 0.5rem;
-  color: var(--dark);
-  text-transform: uppercase;
-}
-
-.contact-form {
-  max-width: 100%;
-}
-
-.contact-form tr {
-  padding: 1rem;
-}
-
-.contact-form td {
-  vertical-align: top;
-  text-align: right;
-  padding: 0.3rem;
-}
 
 
 /* Footer */

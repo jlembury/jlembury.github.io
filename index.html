@@ -8,14 +8,6 @@
     <link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 
-    <script language="JavaScript">
-        var frmvalidator = new Validator("contactform");
-        frmvalidator.addValidation("name", "req", "Please provide your name");
-        frmvalidator.addValidation("email", "req", "Please provide your email");
-        frmvalidator.addValidation("email", "email",
-            "Please enter a valid email address");
-    </script>
-
     <title>Jessica Embury</title>
 </head>
 
@@ -75,7 +67,7 @@
         <!-- Top Container: Showcase -->
         <div class="showcase">
 
-            <h1>I'm glad you're here. <br> Let's be awesome together.</h1>
+            <h1>I'm glad you're here. <br> Let's make something awesome.</h1>
             <p>
                 I'm Jessica Embury, a geographer based in San Diego.
                 I create engaging map products and powerful geospatial tools by combining GIS technology with software development and design.
@@ -89,7 +81,7 @@
             <a class="nochange" href="https://arcg.is/9rWHD" target="_blank"><img src="img/diabetes-dash.JPG" alt="Dashboard with diabetes discharges mapped by age group."></a>
             <h3>Diabetes Dashboard</h3>
             <p>Part of a series that seeks to better understand population vulnerability in San Diego County, this dashboard was
-                featured in the <a href="SDSU NewCenter Tracking COVID-19.pdf" target="_blank" style="color:var(--dark);">SDSU NewsCenter</a> and is published on the Center for Human Dynamics in the Mobile Age (HDMA) 
+                featured in the <a href="pdf/SDSU NewCenter Tracking COVID-19.pdf" target="_blank" style="color:var(--dark);">SDSU NewsCenter</a> and is published on the Center for Human Dynamics in the Mobile Age (HDMA) 
                 <a href="https://hdma-sdsu.github.io" target="_blank" style="color:var(--dark);">COVID-19 Research Hub</a> and 2020 Esri UC 
                 <a href="https://www.esri.com/en-us/about/events/uc/esri-uc-map-gallery#/map-detail/5ee8fdeff3b616cb34269637" target="_blank" style="color:var(--dark);">Virtual Map Gallery</a>.
             </p>
@@ -124,7 +116,7 @@
         <div class="portfolio-box box-b">
             <p class="extras">Research Project</p>
             <h3>Temperature Variables & Heat-Related Deaths</h3>
-            <p class="reg">The project, presented at the 2020 SDSU <a href="SRS2020 Abstract.pdf" target="_blank" style="color:var(--dark);">Student Research Symposium</a>, uses 
+            <p class="reg">The project, presented at the 2020 SDSU <a href="pdf/SRS2020 Abstract.pdf" target="_blank" style="color:var(--dark);">Student Research Symposium</a>, uses 
                 statistical and visual analysis to find correlations.</p>
             <br>
             <p class="extras">ArcGIS Pro, Python, R</p>
@@ -142,7 +134,7 @@
             <p class="extras">PostgreSQL, PostGIS, Python, ArcGIS Pro</p>
             <br>
             <div class="block">
-                <a href="Database Implementation.pdf" class="btn" target="_blank">Project Slides</a>
+                <a href="pdf/Database Implementation.pdf" class="btn" target="_blank">Project Slides</a>
             </div>
         </div>
 
@@ -154,7 +146,7 @@
             <p class="extras">Survey123, XLS, JavaScript</p>
             <br>
             <div class="block">
-                <a href="Children's Pool Survey.pdf" class="btn" target="_blank">Survey Form</a>
+                <a href="pdf/Children's Pool Survey.pdf" class="btn" target="_blank">Survey Form</a>
             </div>
         </div>
 
@@ -174,10 +166,10 @@
     <br>
 
     <section class="maps">
-        <a href="Penasquitos Canyon Trail Map.pdf" target="_blank"><img src="img/lospen-thumb.jpg" alt="map thumbnail image"></a>
-        <a href="New Civita MAD Features.pdf" target="_blank"><img src="img/civita-thumb.jpg" alt="map thumbnail image"></a>
-        <a href="San Dieguito River Park Series.pdf" target="_blank"><img src="img/sdrp-thumb.jpg" alt="map thumbnail image"></a>
-        <a href="Junior Ranger Map Update.pdf" target="_blank"><img src="img/jrranger-thumb.jpg" alt="map thumbnail image"></a>
+        <a href="pdf/Penasquitos Canyon Trail Map.pdf" target="_blank"><img src="img/lospen-thumb.jpg" alt="map thumbnail image"></a>
+        <a href="pdf/New Civita MAD Features.pdf" target="_blank"><img src="img/civita-thumb.jpg" alt="map thumbnail image"></a>
+        <a href="pdf/San Dieguito River Park Series.pdf" target="_blank"><img src="img/sdrp-thumb.jpg" alt="map thumbnail image"></a>
+        <a href="pdf/Junior Ranger Map Update.pdf" target="_blank"><img src="img/jrranger-thumb.jpg" alt="map thumbnail image"></a>
     </section>
 
     <br>
@@ -249,7 +241,7 @@
 
             <table>
                 <tr>
-                    <td><a href="mailto:jess.embury@gmail.com" style="color:var(--dark);"><i class="fas fa-envelope-square fa-4x"></i></a></td>
+                    <td><a href="mailto:jlembury@gmail.com" style="color:var(--dark);"><i class="fas fa-envelope-square fa-4x"></i></a></td>
                     <td><a href="https://www.linkedin.com/in/jessica-embury/" target="_blank" style="color:var(--dark);"><i class="fab fa-linkedin fa-4x"></i></td>
                 </tr>
            
@@ -260,31 +252,7 @@
             </table>
 
         </div>
-
-        <div class="contact-form">
-            <h2>CONTACT</h2>
-            <form method="post" name="contact_form" action="contact-form-handler.php">
-                <table>
-                    <tr>
-                        <td><label>Name</label></td>
-                        <td><input type="text" name="name" style="width:100%;"></td>
-                    </tr>
-                    <tr>
-                        <td><label>Email</label></td>
-                        <td><input type="email" name="email" style="width:100%;"></td>
-                    </tr>
-                    <tr>
-                        <td><label>Message</label></td>
-                        <td><textarea name="message" style="width:100%; height:100px;" placeholder="Message"></textarea></td>
-                    </tr>
-                    <tr>
-                        <td></td>
-                        <td><input type="submit" class="btn" value="Submit"></td>
-                    </tr>
-                </table>
-            </form>
-        </div>
-    
+  
     </section>
 
     <!-- Footer -->
