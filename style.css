@@ -391,10 +391,8 @@ img {
 }
 
 .skill-icon h2 {
-  padding-top: 1rem;
+  padding: 1rem;
   font-size: 2rem;
-  margin-top: 0;
-  margin-bottom: 0;
   color: var(--dark);
   text-transform: uppercase;
 }
@@ -436,10 +434,8 @@ img {
 }
 
 .contact-icon h2 {
-  padding-top: 1rem;
+  padding: 1rem;
   font-size: 2rem;
-  margin-top: 0;
-  margin-bottom: 0;
   color: var(--dark);
   text-transform: uppercase;
 }
