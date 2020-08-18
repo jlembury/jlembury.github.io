@@ -76,6 +76,7 @@ img {
   right:0;
   position: fixed;
   height:80px;
+  width:100%;
   vertical-align: middle;
 }
 
