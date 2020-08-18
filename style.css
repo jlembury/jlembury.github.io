@@ -436,7 +436,37 @@ footer {
     grid-template-areas:
       'showcase'
       'spotlight';
+    display: grid;
+    grid-gap: 20px;
   }
+
+  .showcase {
+  grid-area: showcase;
+  min-height: 350px;
+  background: var(--light);
+  background-size: cover;
+  background-position: center;
+  padding: 1rem 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  box-shadow: var(--shadow);
+}
+
+.spotlight {
+  grid-area: spotlight;
+  min-height: 350px;
+  background: var(--light);
+  background-size: cover;
+  background-position: center;
+  padding: 1rem 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  box-shadow: var(--shadow);
+}
 
   .main-nav ul {
     grid-template-columns: 1fr 1fr;
