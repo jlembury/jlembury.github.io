@@ -220,7 +220,7 @@ img {
 /* Portfolio Title Bar */
 .portfolio-title-bar {
   grid-area: portfolio-title-bar;
-  min-height: 100px;
+  min-height: 60px;
   background: var(--light);
   background-size: cover;
   background-position: center;
@@ -242,7 +242,7 @@ img {
 
 /* Portfolio Boxes */
 .portfolio-box {
-  min-height: 300px;
+  min-height: 250px;
   background: var(--light);
   background-size: cover;
   background-position: center;
@@ -294,7 +294,7 @@ img {
 /* Gallery Title Bar */
 .map-title-bar {
   grid-area: map-title-bar;
-  min-height: 100px;
+  min-height: 60px;
   background: var(--light);
   background-size: cover;
   background-position: center;
