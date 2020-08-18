@@ -81,7 +81,7 @@ img {
 }
 
 .logo {
-    width: 60px;
+    width: 50px;
     margin-top: 0;
     margin-bottom: 0;
     filter: drop-shadow(0 0.5px 0.8px rgba(104, 104, 104, 0.8));
@@ -89,7 +89,7 @@ img {
 
 .top-bar h1 {
   font-size: 1.5rem;
-  margin-top: 0;
+  margin-top: 1rem;
   margin-bottom: 0;
   color: var(--dark);
   display: inline-block;
