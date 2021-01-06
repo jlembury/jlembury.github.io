@@ -8,7 +8,7 @@
 
 html {
   box-sizing: border-box;
-  font-family: 'Exo 2', sans-serif; 
+  /*font-family: 'Exo 2', sans-serif; */
   color: var(--dark);
   max-width: 100%;
 }
@@ -17,7 +17,12 @@ body {
   background: whitesmoke;
   margin: 20px 20px;
   line-height: 1.4;
+  font-family: 'Work Sans', sans-serif;
 }
+
+ h1, h2, h3, h4, h5, h6 {
+  font-family: 'Crimson Text', serif;
+ }
 
 .jump-marker {
   position: absolute;
@@ -32,7 +37,7 @@ body {
   text-decoration: none;
   border: 0;
   display: inline-block;
-  font-family: 'Exo 2', sans-serif;
+  font-family: 'Work Sans', sans-serif; /*'Exo 2', sans-serif;*/
   font-size: 1rem;
 }
 
@@ -79,7 +84,7 @@ img {
 }
 
 .top-bar h1 {
-  font-size: 1.5rem;
+  font-size: 1.7rem;
   margin-top: 0;
   margin-bottom: 0;
   color: var(--dark);
@@ -116,7 +121,7 @@ img {
   text-align: center;
   color: var(--dark);
   text-transform: uppercase;
-  font-size: 1rem;
+  font-size: 1.2rem;
   box-shadow: var(--shadow);
 }
 
@@ -152,7 +157,7 @@ img {
 
 .showcase h1 {
   font-size: 2.5rem;
-  margin-bottom: 0;
+  margin-bottom: 0.5rem;
   color: var(--dark);
 }
 
@@ -345,7 +350,7 @@ img {
 }
 
 .map-box h3 {
-  font-size: 1rem;
+  font-size: 1.2rem;
   color: var(--dark);
   margin-top: 0.2rem;
   margin-bottom: 0;
@@ -532,7 +537,7 @@ footer {
 
 .showcase h1 {
   font-size: 1.5rem;
-  margin-bottom: 0;
+  margin-bottom: 0.5rem;
   color: var(--dark);
 }
 
