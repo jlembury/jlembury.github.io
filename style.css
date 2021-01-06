@@ -45,7 +45,7 @@ img {
 .block {
   display: inline-block;
   padding: 0.5rem;
-}​
+}
 
 .wrapper {
   display: grid;
@@ -247,7 +247,6 @@ img {
   padding: 1rem;
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: start;
   box-shadow: var(--shadow);
 }
@@ -328,7 +327,6 @@ img {
 
 .map-box img {
   max-width: 100%;
-  box-shadow: var(--shadow);
 }
 
 .map-a {
