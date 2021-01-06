@@ -547,7 +547,7 @@ footer {
   }
 
 .showcase h1 {
-  font-size: 1.5rem;
+  font-size: 1.rem;
   margin-bottom: 0.5rem;
   color: var(--dark);
 }
