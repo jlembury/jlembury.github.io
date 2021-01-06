@@ -553,6 +553,12 @@ footer {
   color: var(--dark);
 }
 
+.showcase p {
+  font-size: 1rem;
+  margin-top: 0;
+  color: var(--dark);
+}
+
 .portfolio {
   display: grid;
   grid-gap: 10px;
