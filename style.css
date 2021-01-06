@@ -502,10 +502,10 @@ footer {
   box-shadow: var(--shadow);
 }
 
-.showcase p {
-  font-size: 1rem;
+.spotlight p {
   margin-top: 0;
   color: var(--dark);
+  font-size: 1rem;
 }
 
   .main-nav ul {
