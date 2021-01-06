@@ -10,19 +10,18 @@ html {
   box-sizing: border-box;
   font-family: 'Exo 2', sans-serif; 
   color: var(--dark);
-  /*scroll-padding-top: 95px;*/
   max-width: 100%;
 }
 
 body {
   background: whitesmoke;
-  margin: 30px 30px;
+  margin: 20px 20px;
   line-height: 1.4;
 }
 
 .jump-marker {
   position: absolute;
-  margin: -95px 0 0;
+  margin: -65px 0 0;
 }
 
 .btn {
@@ -44,13 +43,11 @@ img {
 
 .block {
   display: inline-block;
-  padding: 0.5rem;
 }
 
 .wrapper {
   display: grid;
   grid-gap: 20px;
-  
 }
 
 .return-top {
@@ -76,34 +73,18 @@ img {
   left:0;
   right:0;
   position: fixed;
-  height:80px;
+  height: 65px;
   width:100%;
   vertical-align: middle;
 }
 
-.logo {
-    width: 50px;
-    margin-top: 0;
-    margin-bottom: 0;
-    filter: drop-shadow(0 0.5px 0.8px rgba(104, 104, 104, 0.8));
-  }
-
 .top-bar h1 {
   font-size: 1.5rem;
-  margin-top: 0.8rem;
-  margin-bottom: 0;
-  color: var(--dark);
-  display: inline-block;
-  white-space: nowrap;
-}
-
-.top-bar p {
   margin-top: 0;
   margin-bottom: 0;
   color: var(--dark);
   display: inline-block;
   white-space: nowrap;
-  font-size: 0.8rem;
 }
 
 .extras {
@@ -123,7 +104,8 @@ img {
   padding: 0;
   list-style: none;
   grid-template-columns: repeat(4, 1fr);
-  margin-top: 95px;
+  margin-top:60px;
+  margin-bottom: 0;
 }
 
 .main-nav a {
@@ -148,6 +130,7 @@ img {
 .top-container {
   display: grid;
   grid-gap: 20px;
+  margin-bottom: 1rem;
   grid-template-areas:
     'showcase showcase spotlight';
 }
@@ -204,12 +187,14 @@ img {
 .spotlight p {
   margin-top: 0;
   color: var(--dark);
+ 
 }
 
 /* Portfolio */
 .portfolio {
   display: grid;
   grid-gap: 20px;
+  margin-bottom: 1rem;
   grid-template-areas:
     'portfolio-title-bar portfolio-title-bar portfolio-title-bar portfolio-title-bar'
     'box-a box-b box-c box-d';
@@ -240,7 +225,7 @@ img {
 
 /* Portfolio Boxes */
 .portfolio-box {
-  min-height: 250px;
+  min-height: 100px;
   background: var(--light);
   background-size: cover;
   background-position: center;
@@ -271,6 +256,7 @@ img {
   color: var(--dark);
   margin-top: 0;
   margin-bottom:0;
+  line-height: 1.1 rem;
 }
 
 .portfolio-box h3 {
@@ -284,6 +270,7 @@ img {
 .gallery {
   display: grid;
   grid-gap: 20px;
+  margin-bottom: 1rem;
   grid-template-areas:
     'map-title-bar map-title-bar map-title-bar map-title-bar map-title-bar map-title-bar'
     'map-a map-b map-c map-d map-e map-f';
@@ -322,7 +309,7 @@ img {
   flex-direction: column;
   align-items: start;
   box-shadow: var(--shadow);
-  align-items: center;
+  /*align-items: center;*/
 }
 
 .map-box img {
@@ -350,23 +337,27 @@ img {
 
 .map-box p {
   color: var(--dark);
-  margin-top: 0;
-  margin-bottom:0;
-  margin-left: 0.3rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  margin-top: 0.2rem;
+  margin-bottom: 0.7rem;
+  line-height: 1.1rem;
 }
 
 .map-box h3 {
   font-size: 1rem;
   color: var(--dark);
   margin-top: 0.2rem;
-  margin-bottom: 0.2rem;
-  margin-left: 0.3rem;
+  margin-bottom: 0;
+  margin-left: 1rem;
+  margin-right: 1rem;
 }
 
 /* Bottom Container */
 .bottom-container {
   display: grid;
   grid-gap: 20px;
+  margin-bottom: 0;
   grid-template-areas:
     'skill-icon contact-icon';
 }
@@ -458,7 +449,7 @@ img {
 
 /* Footer */
 footer {
-  margin-top: 2rem;
+  margin-top: 0;
   margin-bottom: 0;
   background: whitesmoke;
   color: var(--dark);
