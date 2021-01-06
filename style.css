@@ -104,7 +104,7 @@ img {
 /* Navigation */
 .main-nav ul {
   display: grid;
-  grid-gap: 10px;
+  grid-gap: 20px;
   padding: 0;
   list-style: none;
   grid-template-columns: repeat(4, 1fr);
@@ -136,7 +136,7 @@ img {
 .top-container {
   display: grid;
   grid-gap: 20px;
-  margin-bottom: 1rem;
+  margin-bottom: 0.5rem;
   grid-template-areas:
     'showcase showcase spotlight';
 }
@@ -144,7 +144,7 @@ img {
 /* Showcase */
 .showcase {
   grid-area: showcase;
-  min-height: 400px;
+  min-height: 300px;
   background: var(--light);
   background-size: cover;
   background-position: center;
@@ -171,7 +171,7 @@ img {
 /* Spotlight */
 .spotlight {
   grid-area: spotlight;
-  min-height: 400px;
+  min-height: 300px;
   background: var(--light);
   background-size: cover;
   background-position: center;
@@ -201,7 +201,7 @@ img {
   display: grid;
   grid-gap: 20px;
   grid-template-columns: repeat(4, minmax(0, 1fr));
-  margin-bottom: 1rem;
+  margin-bottom: 0.5rem;
   grid-template-areas:
     'portfolio-title-bar portfolio-title-bar portfolio-title-bar portfolio-title-bar'
     'box-a box-b box-c box-d';
@@ -277,7 +277,7 @@ img {
 .gallery {
   display: grid;
   grid-gap: 20px;
-  margin-bottom: 1rem;
+  margin-bottom: 0.5rem;
   grid-template-columns: repeat(6, minmax(0, 1fr));
   grid-template-areas:
     'map-title-bar map-title-bar map-title-bar map-title-bar map-title-bar map-title-bar'
@@ -505,6 +505,7 @@ footer {
 
   .main-nav ul {
     grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
   }
 
 .portfolio {
@@ -539,6 +540,14 @@ footer {
 
 @media (max-width: 500px) {
 
+  .top-container {
+    grid-template-areas:
+      'showcase'
+      'spotlight';
+    display: grid;
+    grid-gap: 10px;
+  }
+
 .showcase h1 {
   font-size: 1.5rem;
   margin-bottom: 0.5rem;
@@ -559,7 +568,7 @@ footer {
 
 .portfolio {
   display: grid;
-  grid-gap: 20px;
+  grid-gap: 10px;
   grid-template-columns: repeat(1, minmax(0, 1fr));
   grid-template-areas:
     'portfolio-title-bar'
@@ -572,7 +581,7 @@ footer {
 /* Map Gallery */
 .gallery {
   display: grid;
-  grid-gap: 20px;
+  grid-gap: 10px;
   grid-template-columns: repeat(2, minmax(0, 1fr));
   grid-template-areas:
     'map-title-bar map-title-bar'
@@ -583,7 +592,7 @@ footer {
 
 .bottom-container {
   display: grid;
-  grid-gap: 20px;
+  grid-gap: 10px;
   grid-template-areas:
     'skill-icon' 
     'contact-icon';
