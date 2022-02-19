@@ -47,7 +47,7 @@
             <ul>
                 <li><a href="#portfolio">Portfolio</a></li>
                 <li style="white-space:nowrap;"><a href="#gallery">Map Gallery</a></li>
-                <li><a href="#skills">Skills</a></li>
+                <li><a href="#skills">Tools</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
@@ -60,24 +60,27 @@
 
             <h1>I'm glad you're here. <br> Let's make something awesome.</h1>
             <p>
-                I'm Jessica Embury, a geographer based in San Diego.
+                I'm Jessica Embury, a geographer and data scientist based in San Diego, CA.<br><br>
                 I create engaging map products and powerful geospatial tools by combining GIS technology with software development and design.
+                I am passionate about exploring the many intersections between geography and computer science.<br>
             </p>
             <i class="fas fa-globe-americas fa-3x" style="align-self: center; padding:1rem;"></i>
         </div>
 
         <!-- Top Container: Spotlight -->
         <div class="spotlight">
-            <a href="https://experience.arcgis.com/experience/55cc1d282e974924b0f23691097a1a06/" target="_blank"><img src="img/heatmap_dash.PNG" alt="Dashboard showing heatmaps of COVID-19 outbreaks in San Diego County."></a>
-            <h3>COVID-19 Analytics Dashboard & Research</h3>
-            <p class="std">Updated daily, this <a href="https://hdma-sdsu.github.io" target="_blank" style="color:var(--dark);">COVID-19 Research Hub</a> dashboard uses heatmaps to track outbreaks by zip code.
-                Ongoing research with the Center for Human Dynamics in the Mobile Age (HDMA) is centered on population vulnerability in San Diego County and informs decisions made by a NIH-funded initiative to establish testing sites in underserved communities.
+            <div >
+            <iframe style="width:100%; height:100%; max-width:560px; max-height:315px;" src="https://www.youtube-nocookie.com/embed/umVG5A1Q0uc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <h3>Identification of High-Risk Dry Cleaning Sites </h3>
+            <p class="std"> In 2020-2021, the San Diego Regional Water Quality Control Board and the SDSU Sage Project collaborated to identify high-risk dry cleaning sites in San Diego County. As a project manager, I developed a Python package to geocode business addresses, created a remote validation process to verify site locations, performed spatial analysis to determine each site's potential risk to community health, and built a spatial database. 
+                <br><br><em>Watch this short video where I describe the project's spatial analysis. (3:49)</em>
             </p>
-            <p class="extras">ArcGIS Online, Operations Dashboard, Python</p>
+            <p class="extras">ArcGIS Pro, ArcGIS Online, Python</p>
             <div class="block">
-                <a href="https://experience.arcgis.com/experience/55cc1d282e974924b0f23691097a1a06/" class="btn" target="_blank">Dashboard</a>
-                <a href="pdf/Real-time COVID-19 Research Interview.pdf" class="btn" target="_blank">SDSU Interview</a>
-                <a href="https://github.com/HDMA-SDSU/ArcGIS-Python-for-COVID19-Data" class="btn" target="_blank">Code Repository</a>
+                <a href="https://newscenter.sdsu.edu/sdsu_newscenter/news_story.aspx?sid=78197" class="btn" target="_blank">About the Project</a>
+                <a href="https://github.com/jlembury/Sage_Project" class="btn" target="_blank">Geocoding Package</a>
+                <a href="https://digitallibrary.sdsu.edu/islandora/object/sdsu%3A139137" class="btn" target="_blank">Technical Report</a>
             </div>
         </div>
 
@@ -93,60 +96,93 @@
         </div>
 
         <div class="portfolio-box box-a">
-            <p class="extras">Analytics Dashboard</p>
-            <h3>Diabetes Dashboard</h3>
+            <img src="img/apcg2021_photo.jpg" alt="">
+            <p class="extras" style="padding-top:0.5rem;">Site Suitability Analysis</p>
+            <h3>Finding Optimal Business Partners</h3>
             <br>
-            <p class="std">Published on the HDMA <a href="https://hdma-sdsu.github.io" target="_blank" style="color:var(--dark);">COVID-19 Research Hub</a> and 2020 Esri UC <a href="https://www.esri.com/en-us/about/events/uc/esri-uc-map-gallery#/map-detail/5ee8fdeff3b616cb34269637" target="_blank" style="color:var(--dark);">Virtual Map Gallery</a>, this dashboard seeks to better understand population vulnerability.</p>
+            <p class="std">I performed a site suitability analysis and developed optimization models to help <a href="https://brightside.sdsu.edu/" target="_blank" style="color:var(--dark);">BrightSide Produce</a> find the best candidate stores in the San Diego Promise Zone. I presented the project at the <a href="https://www.csusm.edu/geography/apcg2021.html" target="_blank" style="color:var(--dark);">Association of Pacific Coast Geographers (APCG) 2021 annual meeting</a> and received the Applied Geography/Earth Systems Award.</p>
             <br>
-            <p class="extras">ArcGIS Online, Operations Dashboard</p>
+            <p class="extras">Esri Business Analyst, LINGO Modeling Software</p>
             
-            <div class="block" style="padding-top:0.5rem;">
-                <a href="https://arcg.is/9rWHD" class="btn" target="_blank">Dashboard</a>
-                <a href="pdf/SDSU NewCenter Tracking COVID-19.pdf" class="btn" target="_blank">SDSU Article</a>
+            <div class="block" style="padding-top:0.5rem; padding-left:1rem; padding-right:1rem; padding-bottom:1rem;">
+                <a href="pdf/APCG2021 Food Insecurity Slides.pdf" class="btn" target="_blank">Project Slides</a>
+                <a href="pdf/APCG2021 Award Embury.pdf" class="btn" target="_blank">APCG 2021 Award</a>
             </div>
         </div>
 
-
         <div class="portfolio-box box-b">
-            <p class="extras">Research Project</p>
-            <h3>Temperature & Heat-Related Deaths</h3>
+            <img src="img/heatmapdash.PNG" alt="">
+            <p class="extras" style="padding-top:0.5rem;">Analytics Dashboards</p>
+            <h3>COVID-19 Interactive Dashboards</h3>
             <br>
-            <p class="std">The project, presented at the 2020 SDSU <a href="pdf/SRS2020 Abstract.pdf" target="_blank" style="color:var(--dark);">Student Research Symposium</a>, uses 
-                statistical and visual analysis to find correlations.</p>
+            <p class="std">I designed many of the dashboards published on the HDMA <a href="https://hdma-sdsu.github.io" target="_blank" style="color:var(--dark);">COVID-19 Research Hub</a> to track COVID-19 outbreaks, outcomes, testing, and vaccinations since March 2020. I also developed Python scripts to automate data and map updates. Find out more about this work in my October 2020 interview with the SDSU NewsCenter.
+            </p>
             <br>
-            <p class="extras">ArcGIS Pro, Python, R</p>
-            
-            <div class="block" style="padding-top:0.5rem;">
-                <a href="img/SRS2020 Poster.jpg" class="btn" target="_blank">Poster</a>
-                <a href="https://github.com/jlembury/Heat-Deaths-and-Temperature" class="btn" target="_blank">Code</a>
+            <p class="extras">ArcGIS Online, Operations Dashboard, Python</p>
+
+            <div class="block" style="padding-top:0.5rem; padding-left:1rem; padding-right:1rem; padding-bottom:1rem;">
+                    <a href="pdf/Real-time COVID-19 Research Interview.pdf" class="btn" target="_blank">SDSU Interview</a>
+                    <a href="https://github.com/HDMA-SDSU/ArcGIS-Python-for-COVID19-Data" class="btn" target="_blank">Code Repository</a>
             </div>
         </div>
 
         <div class="portfolio-box box-c">
-            <p class="extras">Database Implementation</p>
-            <h3>Human Mobility in San Diego County</h3>
+            <img src="img/inat_thumb.PNG" alt="">
+            <p class="extras" style="padding-top:0.5rem;">Research Project</p>
+            <h3>iNaturalist Meta Analysis</h3>
             <br>
-            <p class="std">A PostgreSQL database with PostGIS extension, implemented with Python and psycopg2. Project visualizations created in ArcGIS Pro.</p>
+            <p class="std">I participated in a collaborative analysis of iNaturalist users and observation activity. My study of U.S. user activity included more than 20 million observations, requiring implementation of a PostgreSQL database with the PostGIS extension to perform the spatial analysis. I created the project's heatmaps in ArcGIS Pro.</p>
             <br>
-            <p class="extras">PostgreSQL, PostGIS, Python, ArcGIS Pro</p>
+            <p class="extras">PostgreSQL, PostGIS, ArcGIS Pro</p>
             
-            <div class="block" style="padding-top:0.5rem;">
-                <a href="pdf/Database Implementation.pdf" class="btn" target="_blank">Project Slides</a>
-                <a href="https://github.com/jlembury/SD-Mobility-Database" class="btn" target="_blank">Code</a>
+            <div class="block" style="padding-top:0.5rem; padding-left:1rem; padding-right:1rem; padding-bottom:1rem;">
+                <a href="https://www.youtube.com/watch?v=MSizZulIYZw" class="btn" target="_blank">Project Video (3:05)</a>
+                <a href="https://sites.google.com/view/inaturalistmetaanalysis" class="btn" target="_blank">Results Website</a>
             </div>
         </div>
 
         <div class="portfolio-box box-d">
-            <p class="extras">Data Collection with Survey123</p>
-            <h3>Children's Pool Monitoring Forms</h3>
+            <img src="img/srs2021_maps.png" alt="">
+            <p class="extras" style="padding-top:0.5rem;">Research Project</p>
+            <h3>COVID-19 Population Vulnerability</h3>
             <br>
-            <p class="std">A data collection tool for the City of San Diego featuring automatic capture of weather and water conditions with JavaScript extensions.</p>
+            <p class="std">I presented the topic of COVID-19 population vulnerability in San Diego County at the 2021 SDSU <a href="pdf/srs2021_embury_abstract.pdf" target="_blank" style="color:var(--dark);">Student Research Symposium</a> and received a Research Excellence Award. Watch the presentation to hear about my COVID-19 research efforts from March 2020 - March 2021.</p>
             <br>
-            <p class="extras">Survey123, XLS, JavaScript</p>
+            <p class="extras">ArcGIS Pro, ArcGIS Online, Python</p>
             
-            <div class="block" style="padding-top:0.5rem;">
-                <a href="pdf/Children's Pool Survey.pdf" class="btn" target="_blank">Survey</a>
-                <a href="https://github.com/jlembury/Survey123-Childrens-Pool" class="btn" target="_blank">Code</a>
+            <div class="block" style="padding-top:0.5rem; padding-left:1rem; padding-right:1rem; padding-bottom:1rem;">
+                <a href="https://youtu.be/QzVaMEfIDrw" class="btn" target="_blank">Presentation Video (9:22)</a>
+                <a href="pdf/SRS2021 Award Embury.pdf" class="btn" target="_blank">SRS 2021 Award</a>
+            </div>
+        </div>
+
+        <div class="portfolio-box box-e">
+            <img src="img/srs2020_crop.jpg" alt="">
+            <p class="extras" style="padding-top:0.5rem;">Research Project</p>
+            <h3>Temperature & Heat-Related Deaths</h3>
+            <br>
+            <p class="std">I collected historical weather data from the NOAA API with Python, analyzed correlations between temperature and heat-related deaths with R script, and created maps in ArcGIS Pro. I presented the project at the 2020 SDSU <a href="pdf/SRS2020 Abstract.pdf" target="_blank" style="color:var(--dark);">Student Research Symposium</a>.</p>
+            <br>
+            <p class="extras">ArcGIS Pro, Python, R</p>
+            
+            <div class="block" style="padding-top:0.5rem; padding-left:1rem; padding-right:1rem; padding-bottom:1rem;">
+                <a href="img/SRS2020 Poster.jpg" class="btn" target="_blank">Poster</a>
+                <a href="https://github.com/jlembury/Heat-Deaths-and-Temperature" class="btn" target="_blank">Code Repository</a>
+            </div>
+        </div>
+
+        <div class="portfolio-box box-f">
+            <img src="img/mobdbflows.PNG" alt="">
+            <p class="extras" style="padding-top:0.5rem;">Database Implementation</p>
+            <h3>Human Mobility in San Diego County</h3>
+            <br>
+            <p class="std">I used Python and the psycopg2 package to automate the implementation of a PostgreSQL database containing origin-destination commuter data from the U.S. Census Bureau (LODES). I analyzed mobility trends using the PostGIS extension.</p>
+            <br>
+            <p class="extras">PostgreSQL, PostGIS, Python, ArcGIS Pro</p>
+            
+            <div class="block" style="padding-top:0.5rem; padding-left:1rem; padding-right:1rem; padding-bottom:1rem;">
+                <a href="pdf/Database Implementation.pdf" class="btn" target="_blank">Project Slides</a>
+                <a href="https://github.com/jlembury/SD-Mobility-Database" class="btn" target="_blank">Code Repository</a>
             </div>
         </div>
 
@@ -206,7 +242,7 @@
         <div class="skill-icon">
         
             
-            <h2>Skills</h2>
+            <h2>Tools</h2>
             
             <br>
         
@@ -286,7 +322,7 @@
 
     <!-- Footer -->
     <footer>
-        <p><span style="white-space: nowrap;">Jessica Embury &copy; 2021 |</span>
+        <p><span style="white-space: nowrap;">Jessica Embury &copy; 2022 |</span>
             <span style="white-space: nowrap;"><a href="#top" style="color:var(--dark);">Return to Top</a></span></p> 
     </footer>
     

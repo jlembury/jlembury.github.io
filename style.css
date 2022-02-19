@@ -15,7 +15,7 @@ html {
 
 body {
   background: #f9ebde; /*whitesmoke;*/
-  margin: 20px 20px;
+  margin: 20px 30px;
   line-height: 1.2;
   font-family: 'Work Sans', sans-serif;
 }
@@ -138,7 +138,7 @@ img {
   grid-gap: 20px;
   margin-bottom: 0.5rem;
   grid-template-areas:
-    'showcase showcase spotlight';
+    'showcase spotlight';
 }
 
 /* Showcase */
@@ -199,11 +199,12 @@ img {
 .portfolio {
   display: grid;
   grid-gap: 20px;
-  grid-template-columns: repeat(4, minmax(0, 1fr));
+  grid-template-columns: repeat(3, minmax(0, 1fr));
   margin-bottom: 0.5rem;
   grid-template-areas:
-    'portfolio-title-bar portfolio-title-bar portfolio-title-bar portfolio-title-bar'
-    'box-a box-b box-c box-d';
+    'portfolio-title-bar portfolio-title-bar portfolio-title-bar'
+    'box-a box-b box-c'
+    'box-d box-e box-f';
 }
 
 /* Portfolio Title Bar */
@@ -235,7 +236,7 @@ img {
   background: var(--light);
   background-size: cover;
   background-position: center;
-  padding: 1rem;
+  padding: 0rem;
   display: flex;
   flex-direction: column;
   align-items: start;
@@ -258,10 +259,21 @@ img {
     grid-area: box-d;
 }
 
+.box-e {
+  grid-area: box-e;
+}
+
+.box-f {
+  grid-area: box-f;
+}
+
+
 .portfolio-box p {
   color: var(--dark);
   margin-top: 0;
   margin-bottom:0;
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
 .portfolio-box h3 {
@@ -269,6 +281,8 @@ img {
   margin-top: 0;
   margin-bottom: 0;
   color: var(--dark);
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
 /* Map Gallery */
@@ -466,6 +480,7 @@ footer {
 @media (max-width: 800px) {
   
   .top-container {
+    grid-template-columns: repeat(1, minmax(0, 1fr));
     grid-template-areas:
       'showcase'
       'spotlight';
@@ -513,7 +528,8 @@ footer {
   grid-template-areas:
     'portfolio-title-bar portfolio-title-bar'
     'box-a box-b'
-    'box-c box-d';
+    'box-c box-d'
+    'box-e box-f';
 }
 
 /* Map Gallery */
@@ -568,7 +584,10 @@ footer {
     'box-a' 
     'box-b'
     'box-c' 
-    'box-d';
+    'box-d'
+    'box-e' 
+    'box-f'
+;
 }
 
 /* Map Gallery */
